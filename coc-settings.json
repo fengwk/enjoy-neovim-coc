@@ -1,0 +1,77 @@
+{
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "suggest.completionItemKindLabels": {
+    "class": "\uf0e8",
+    "color": "\ue22b",
+    "constant": "\uf8fe",
+    "default": "\uf29c",
+    "enum": "\uf435",
+    "enumMember": "\uf02b",
+    "event": "\ufacd",
+    "field": "\uf93d",
+    "file": "\uf723",
+    "folder": "\uf115",
+    "function": "\u0192",
+    "interface": "\uf417",
+    "keyword": "\uf1de",
+    "method": "\uf6a6",
+    "module": "\uf40d",
+    "operator": "\uf915",
+    "property": "\ue624",
+    "reference": "\ufa46",
+    "snippet": "\ue60b",
+    "struct": "\ufb44",
+    "text": "\ue612",
+    "typeParameter": "\uf728",
+    "unit": "\uf475",
+    "value": "\uf89f",
+    "variable": "\ue71b"
+  },
+  "diagnostic.errorSign": "\uf467",
+  "diagnostic.warningSign": "\uf071",
+  "diagnostic.infoSign": "\uf129",
+  "diagnostic.hintSign": "\uf864",
+  "diagnostic.displayByAle": false,
+  "diagnostic.refreshOnInsertMode": false,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.virtualTextPrefix": " ❯❯❯ ",
+  "diagnostic.virtualText": false,
+  "coc.preferences.formatOnSaveFiletypes": [],
+  "java.home": "/usr/lib/jvm/java-17-openjdk",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/usr/lib/jvm/java-8-openjdk",
+      "sources": "/usr/lib/jvm/java-8-openjdk/src.zip",
+      "javadoc": "https://docs.oracle.com/javase/8/docs/api",
+      "default": true
+    },
+    {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk",
+      "sources": "/usr/lib/jvm/java-11-openjdk/lib/src.zip",
+      "javadoc": "https://docs.oracle.com/javase/11/docs/api"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk",
+      "sources": "/usr/lib/jvm/java-17-openjdk/lib/src.zip",
+      "javadoc": "https://docs.oracle.com/javase/17/docs/api"
+    }
+  ],
+  "java.import.maven.enabled": true,
+  "java.configuration.maven.userSettings": "~/.me2/settings.xml",
+  "java.maven.downloadSources": true,
+  "java.maven.updateSnapshots": true,
+  "coc.preferences.rootPatterns": [
+    ".git",
+    ".hg",
+    ".projections.json",
+    "pom.xml",
+    "package.json",
+    "README.md"
+  ],
+  "Lua.telemetry.enable": false,
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.diagnostics.globals": ["vim", "use_rocks"]
+}
